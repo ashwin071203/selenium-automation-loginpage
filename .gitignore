@@ -1,0 +1,49 @@
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Maven output
+target/
+
+# Gradle output
+build/
+.gradle/
+
+# IDE-specific files
+.idea/
+.vscode/
+.project
+.classpath
+.settings/
+*.iml
+*.iws
+*.ipr
+
+# TestNG reports and output
+test-output/
+testng-failed.xml
+
+# Log files
+*.log
+
+# Driver executables (if not managed by WebDriverManager)
+# Consider if you are explicitly committing driver executables.
+# If using WebDriverManager, these are typically downloaded to a temporary location
+# and do not need to be ignored here.
+chromedriver
+geckodriver
+msedgedriver
+IEDriverServer.exe
+
+# Sensitive information (e.g., API keys, passwords)
+config.properties
+application.properties
+*.env
+
+# Operating System files
+.DS_Store
+Thumbs.db
